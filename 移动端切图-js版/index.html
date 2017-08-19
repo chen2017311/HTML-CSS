@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>无标题文档</title>
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<script>
+
+
+
+window.onresize = window.onload = function(){
+
+var deviceWidth = document.documentElement.clientWidth;
+if(deviceWidth > 720) deviceWidth = 720;
+document.documentElement.style.fontSize = deviceWidth / 7.2 + 'px';
+
+};
+
+
+
+</script>
+
+<!--
+	px 
+     
+    % rem
+-->
+<body>
+
+<div class="mainBox">
+	<header class="header clearfix">
+    	<p class="fr user">
+        	<a href=" ###" class="icoUser"></a>
+        	<a href=" ###" class="icoMenu"></a>
+        </p>
+        <p class="fl logo"><a href="##"><img src="images/logo.jpg"></a></p>
+    </header>
+    <section class="banner">
+    	<img src="images/banner.jpg" width="100%">
+    </section>
+    <nav class="nav">
+   		<a href="#">
+        	<img src="images/navIco1.jpg" width="59.72%">
+            <span>运营推广</span>
+        </a>
+   		<a href="#">
+        	<img src="images/navIco2.jpg" width="59.72%">
+            <span>运营推广</span>
+        </a>
+   		<a href="#">
+        	<img src="images/navIco3.jpg" width="59.72%">
+            <span>运营推广</span>
+        </a>
+   		<a href="#">
+        	<img src="images/navIco4.jpg" width="59.72%">
+            <span>运营推广</span>
+        </a>
+   		<a href="#">
+        	<img src="images/navIco5.jpg" width="59.72%">
+            <span>运营推广</span>
+        </a>
+    </nav>
+
+</div>
+
+</body>
+</html>

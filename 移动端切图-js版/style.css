@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*html{font-size:100px;}*/
+/*
+	16px
+	1rem = 10px;
+	2rem = 20px;
+	
+	720px/font-size = 100px; 7.2
+	
+	6plus 414px / 7.2 = 57.5px
+	6s 	  375px			52.083333px
+	5/4s  320px			44.4444px;
+*/
+
+*{margin:0;padding:0;font-family:'Microsoft Yahei';}
+a{color:#333;text-decoration:none;}
+img{border:none;}
+
+.mainBox{margin:0 auto;min-width:320px;width:7.2rem;}
+
+.nav{width:100%;text-align:center; display:box; display:-webkit-box;-webkit-box-pack:center;box-pack:center;padding:0.3rem 0;height:1.23rem;}
+.nav a{ box-flex:1;-webkit-box-flex:1;display:block;}
+.nav a span{display:block;font-size:0.22rem;padding-top:0.16rem;}
+
+.nav a img,.banner img{display:block;margin:0 auto;}
+
+
+.fr{float:right;}
+.fl{float:left;}
+.header{padding:0.23rem 0.2rem;}
+.logo {width:1.23rem;}
+.logo img{display:block;width:100%;}
+.clearfix:after{ content:"";display:block;height:0;line-height:0;visibility:hidden; clear:both;}
+.user a{display:block;width:0.38rem;height:0.38rem;float:left;}
+.icoUser{background:url(images/icoUser.jpg) center center; background-size:100% 100%;margin-right:0.25rem;}
+.icoMenu{background:url(images/icoMenu.jpg) center center; background-size:100% 100%;}
+
+/*@media screen and (max-width:640px){
+html{ font-size:55.55%;}
+	}
+@media screen and (max-width:480px){
+html{ font-size:41.66%;}
+	}
+@media screen and (max-width:320px){
+html{ font-size:27.77%;}	
+}*/
