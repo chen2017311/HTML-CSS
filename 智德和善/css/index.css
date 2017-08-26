@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.header{width:1000px;height:85px;margin:0 auto;}
+.logo{float:left;padding-top:10px;}
+.header_right{float:right;padding-top:30px; text-align:right;font:12px/23px "宋体";}
+.date,.date a{ color:#888;}
+.nav a{ color:#666;}
+.nav span{ color:#ccc; margin:0 12px;}
+
+.mainNav{width:100%;height:46px;background:#005db0;}
+.mainNav ul{border-left:1px solid #1c6db5;width:1000px; margin:0 auto;}
+.mainNav li{float:left;height:42px; line-height:42px; border-right:1px solid #1c6db5;}
+.mainNav li a{font-size:16px;padding:0 26px;display:block;color:#fff;}
+.mainNav li a:hover{background:#00498b;}
+
+.banner{background:url(../image/banner.jpg) no-repeat center top;height:394px; position:relative;}
+.idot{ position:absolute;left:50%;top:374px;margin-left:-30px;width:60px;height:12px;}
+.idot span{ font-size:0; line-height:0; overflow:hidden;margin:0 5px;display:inline-block;width:10px;height:10px;background:url(../image/zg_d_21.png) no-repeat;}
+.idot span.on{background:url(../image/zg_d_19.png) no-repeat center top;}
+/*.idot{position:absolute;width:100%;height:12px;left:0;bottom:9px; text-align:center;}
+.idot span{ font-size:0; line-height:0; overflow:hidden;margin:0 5px;display:inline-block;width:10px;height:10px;background:url(../image/zg_d_21.png) no-repeat;}
+.idot span.on{background:url(../image/zg_d_19.png) no-repeat center top;}*/
+
+.main{width:1000px;margin:0 auto;}
+.rule{width:630px;float:left;}
+/*.rule h3{}*/
+.title{margin-top:18px;padding-left:32px;height:45px;border-bottom:1px solid #ddd;font:16px/45px "微软雅黑";}
+.title01{background:url(../image/titbg01.jpg) no-repeat left center;}
+.title02{background:url(../image/titbg02.jpg) no-repeat left center;}
+.rule ol{margin-top:6px;background:url(../image/rule_list_bg.jpg) no-repeat left 9px;}
+.rule li{padding-left:26px;height:34px; line-height:34px;}
+.rule li a{float:left;font-size:14px; font-family:"微软雅黑"; color:#666;}
+.rule li span{float:right;color:#666; font-family:"宋体";}
+.contact{float:right;border-left:1px dotted #ddd;width:332px;padding-left:20px;}
+.address{font:14px/34px "微软雅黑"; color:#666;background:url(../image/zg_bk01.jpg) no-repeat right bottom;}
+.address span{ font-size:16px; font-weight:bold;}
+
+.footer{background:#efefef;height:61px;font:12px/61px "宋体"; color:#888; text-align:center;}
+.footer img{ vertical-align:middle;margin:0 5px 0 8px;}
